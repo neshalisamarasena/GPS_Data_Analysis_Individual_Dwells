@@ -26,13 +26,13 @@ This repository contains code to analyze GPS data and identify dwells, periods w
   Bash: python src/dwell_analyzer.py 
   Modify dwell_analyzer.py if you wish to adjust the min_dwell_duration and distance_threshold parameters.
 
-3.Customization
+3. Customization
   You can adjust the dwell identification criteria by modifying the following parameters in src/dwell_analyzer.py:
     min_dwell_duration: The minimum duration (in timedelta format) for a period to be considered a dwell.
     distance_threshold: The maximum distance (in degrees) allowed within a dwell period for it to be considered stationary.
 
-4.Algorithm Explanation
-The code implements a basic algorithm to identify dwells based on distance and duration thresholds:
+4. Algorithm Explanation
+  The code implements a basic algorithm to identify dwells based on distance and duration thresholds:
   It iterates through the GPS data points chronologically.
   For each pair of consecutive data points:
   It calculates the Euclidean distance between them using latitude and longitude coordinates.
