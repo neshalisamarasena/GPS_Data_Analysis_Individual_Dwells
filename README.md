@@ -1,7 +1,7 @@
 # GPS_Data_Analysis_Individual_Dwells
 This repository contains code to analyze GPS data and identify dwells, periods where an individual or object remains relatively stationary.
 
-#Purpose
+# Purpose
   Identifies dwell periods from GPS coordinate data.
   Provides insights into patterns of movement or behavior by analyzing:
   The number of dwells
@@ -9,15 +9,15 @@ This repository contains code to analyze GPS data and identify dwells, periods w
   Any specific time-based or location-based trends
   Usage Instructions
   
-#Dependencies
-  Python 3.x
-  pandas
-  NumPy
+# Dependencies
+  - Python 3.x
+  - pandas
+  - NumPy
 
-#Installation
+# Installation
   Bash: pip install pandas numpy
 
-#Execution
+# Execution
 1. Prepare your data:
   Ensure your GPS data is in a CSV file named 'gps_data.csv' and located in the data folder of this repository.
   The file must contain at least the following columns: 'datetime', 'lat', 'lon'.
