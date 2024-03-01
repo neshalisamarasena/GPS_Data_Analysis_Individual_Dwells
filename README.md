@@ -15,7 +15,8 @@ This repository contains code to analyze GPS data and identify dwells, periods w
   - NumPy
 
 # Installation
-  Bash: pip install pandas numpy
+  Bash: 
+  pip install pandas numpy
 
 # Execution
 1. Prepare your data:
